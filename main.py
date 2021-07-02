@@ -67,5 +67,6 @@ img_roi_copy = cv2.rectangle(img_roi_copy, (x, y), (x + w ,y + h),(0,0,0))
 passport_dict = {'Passport No.': pp_no,
                  'First Name': firstname,
                  'Last Name': lastname,
-                 'Pinfl':pinfl}
+                 'Pinfl':pinfl,
+                }
 print(passport_dict)
